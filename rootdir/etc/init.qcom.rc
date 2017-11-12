@@ -28,6 +28,8 @@
 import init.qcom.power.rc
 import init.qcom.usb.rc
 import init.target.rc
+import init.mmi.rc
+import init.safailnet.rc
 
 on early-init
     # Turn off backlight on blank
