@@ -103,7 +103,7 @@ PRODUCT_PACKAGES += \
     bspcapability \
     camera.msm8916 \
     libshims_camera \
-    Camera2
+    Snap
 
 # Connectivity Engine support
 PRODUCT_PACKAGES += \

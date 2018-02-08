@@ -19,15 +19,13 @@
      for different hardware or product builds. -->
 <resources>
 
-    <!-- Opens back camera using openLegacy() -->
+    <!-- Enable support for camera api v2 -->
+    <bool name="support_camera_api_v2">true</bool>
+  
+    <!-- Opens back camera using openLegacy() and forces api v1 -->
     <bool name="back_camera_open_legacy">false</bool>
-
-    <!-- Opens front camera using openLegacy() -->
+  
+    <!-- Opens front camera using openLegacy() and forces api v1 -->
     <bool name="front_camera_open_legacy">false</bool>
-
-
-    <!-- ISO values use numbers.
-         Example: 50 instead of ISO50 -->
-    <bool name="iso_values_use_numbers">true</bool>
-
+  
 </resources>
