@@ -109,3 +109,6 @@ sys.uart.enable=0
 # WiFi
 ro.disableWifiApFirmwareReload=true
 wifi.interface=wlan0
+
+# Team MoonOS
+ro.aosmp.maintainer=Mrinal Ghosh(mg712702)
